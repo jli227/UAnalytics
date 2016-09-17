@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node serve"
   },
   "author": "Jonathan Li",
   "license": "ISC",
@@ -13,7 +13,18 @@
     "url": "https://github.com/jli227/uanalytics.git"
   },
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
     "express": "^4.14.0",
-    "lodash": "^4.15.0"
+    "lodash": "^4.15.0",
+    "path": "^0.12.7",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-concat-css": "^0.3.1",
+    "grunt-react": "^0.12.3"
   }
 }
