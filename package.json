@@ -16,10 +16,14 @@
     "body-parser": "^1.15.2",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
+    "fast-crc32c": "^1.0.4",
+    "google-cloud": "^0.40.0",
+    "grunt": "^1.0.1",
     "lodash": "^4.15.0",
     "path": "^0.12.7",
     "react": "^15.3.1",
-    "react-dom": "^15.3.1"
+    "react-dom": "^15.3.1",
+    "request": "^2.75.0"
   },
   "devDependencies": {
     "grunt": "^1.0.1",

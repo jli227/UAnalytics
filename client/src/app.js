@@ -5,10 +5,9 @@
 var React = require("react"),
     ReactDOM = require("react-dom"),
 
-    chart = document.getElementById("chart"),
-
+    main = document.getElementById("main"),
     Analytics = require("./components/Analytics");
 
 window.React = React;
 
-ReactDOM.render(<Analytics />, chart);
+ReactDOM.render(<Analytics />, main);
